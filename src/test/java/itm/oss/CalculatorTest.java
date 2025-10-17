@@ -45,5 +45,9 @@ class CalculatorTest {
         assertFalse(calc.isPrime(-4), "There are not negative primer numbers.");
         assertFalse(calc.isPrime(-5), "There are not negative primer numbers.");
     }
+    @Test
+    @DisplayName("Causing Error "){
+        assertTrue(calc.isPrime(-1), "There are not negative primer numbers.")
+    }
 
 }
